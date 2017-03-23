@@ -1,0 +1,11 @@
+#tb1{
+	width: 200px;
+	height: 300px;
+	margin: auto;
+}
+#tb1,td{
+	width: 50%;
+	height: 100px;
+	border: 1px solid blue;
+	text-align: center;
+}
