@@ -1,0 +1,25 @@
+.box{
+	height: 100px;
+	width: 100%;
+	background: skyblue;
+	text-align: center;
+}
+.box p{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 100px;
+}
+.p1{
+	list-style: none;
+}
+.p1 li{
+	margin: 20px;
+	margin-left: 200px;
+	font-size: 25px;
+}
+.p1 li a{
+	font-size: 25px;
+	float: right;
+	margin-right: 200px;
+}
