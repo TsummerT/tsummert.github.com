@@ -1,48 +1,51 @@
+div {
+	box-sizing: border-box;
+}
 .box{
-	width: 357px;
-	height: 601px;
+	width: 351px;
+	height: 530px;
 	margin-left: 35%;
 	margin-top: 5%;
 }
 .box1{
-	width: 357px;
+	width: 351px;
 	height: 25px;
 }
 .box2{
-	width: 352px;
+	width: 351px;
 	height: 75px;
 	padding: 1px;
 	border: 1px solid gray;
 	border-top: 1px;
 }
 .box3{
-	width: 354px;
+	width: 351px;
 	height: 110px;
 	border: 1px solid gray;
 	border-top: 0;
 	border-bottom: 0;
 }
 .box4{
-	width: 354px;
+	width: 351px;
 	height: 50px;
 	border: 1px solid gray;
 	border-top: 0;
 }
 .box5{
-	width: 354px;
-	height: 51px;
+	width: 351px;
+	height: 50px;
 	border: 1px solid gray;
 	border-top: 0;
 }
 .box6{
-	width: 356px;
-	height: 273px;
+	width: 351px;
+	height: 270px;
 	border: 0;
 	border-left: 1px solid gray;
 }
 .s1_left{
 	float: left;
-	width: 70px;
+	width: 71px;
 	height: 25px;
 	text-align: center;
 	border: 1px solid gray;
@@ -66,7 +69,7 @@
 .s21{
 	border: 1px solid black;
 	width: 300px;
-	height: 21px;
+	height: 20px;
 	margin-bottom: 0;
 	margin-top: 11px;
 	margin-left: 26px;
@@ -74,7 +77,7 @@
 .s22{
 	border: 1px solid black;
 	width: 300px;
-	height: 21px;
+	height: 20px;
 	margin-top: 11px;
 	margin-left: 26px;
 }
@@ -87,7 +90,7 @@
 }
 .s32{
 	width: 210px;
-	height: 22px;
+	height: 20px;
 	margin-bottom: 0;
 	margin-top: 25px;
 	margin-left: 10px;
@@ -96,7 +99,7 @@
 }
 .s33{
 	width: 210px;
-	height: 22px;
+	height: 20px;
 	margin-top: 15px;
 	margin-left: 10px;
 	margin-bottom: 16px;
@@ -104,7 +107,7 @@
 	border: 1px solid black;
 }
 .s41{
-	width: 108px;
+	width: 100px;
 	height: 30px;
 	background-color: #FF4400;
 	text-align: center;
@@ -130,14 +133,14 @@
 }
 .s51{
 	border: 1px solid black;
-	width: 324px;
-	height: 24px;
+	width: 320px;
+	height: 25px;
 	margin: 13px; 
 	float: left;
 }
 .big{
-	width: 141px;
-	height: 181px;
+	width: 140px;
+	height: 180px;
 	float: left;
 	border-right: 1px solid gray;
 	border-bottom: 1px solid gray;
