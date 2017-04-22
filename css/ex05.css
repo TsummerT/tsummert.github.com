@@ -1,0 +1,379 @@
+div{
+	box-sizing: border-box;
+}
+.box{
+	width: 852px;
+	padding: 1px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.head{
+	width: 850px;
+	height: 122px;
+	display: flex;
+	flex-direction: column;
+}
+.head-top{
+	width: 850px;
+	height: 32px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.head-top-way1{
+	width: 100px;
+	height: 28px;
+	border-radius: 3px 3px 0 0;
+	color: white;
+	text-align: center;
+	line-height: 28px;
+	font-weight: 600;
+	font-size: 18px;
+	background: linear-gradient(rgb(40,144,203) 25%,rgb(27,136,196) 75%);
+}
+.head-top-zao{
+	height: 24px;
+	width: 24px;
+	background: linear-gradient(rgb(250,120,20) 25%,rgb(255,60,0) 75%);
+	text-align: center;
+	line-height: 24px;
+	color: white;
+	margin-left: 8px;
+	border-radius: 3px;
+}
+.head-top-bottom{
+	width: 850px;
+	height: 4px;
+	background: linear-gradient(rgb(27,136,196),rgb(22,133,194));
+}
+.head-middle{
+	height: 60px;
+	width: 850px;
+	border: 1px solid rgb(208,208,208);
+	border-top: 0;
+	background: linear-gradient(rgb(255,255,255),rgb(241,242,242));
+}
+.head-middle-row{
+	height: 30px;
+	width: 850px;
+	margin-left: 10px;
+	display: flex;
+	flex-direction: row;
+}
+.head-middle-row i{
+	color: rgb(211,23,23);
+	margin-top: 6px;
+}
+.text1{
+	height: 28px;
+	width: 68px;
+	font-weight: 600;
+	line-height: 28px;
+	color: rgb(211,23,23);
+}
+.text2{
+	height: 30px;
+	width: 40px;
+	line-height: 30px;
+	margin-left: 28px;
+}
+.text3{
+	height: 30px;
+	width: 70px;
+	line-height: 25px;
+	color: rgb(75,75,75);
+}
+.text4{
+	color: #CF0047;
+	font-weight: 600;
+	height: 30px;
+	width: 100px;
+	line-height: 25px;
+}
+.text5{
+	color: rgb(18,22,26);
+	font-weight: 600;
+	width: 70px;
+	height: 30px;
+	line-height: 25px;
+}
+.text6{
+	height: 30px;
+	width: 35px;
+	line-height: 25px;
+	color: rgb(75,75,75);
+}
+.text7{
+	color: #CF0047;
+	font-weight: 600;
+	height: 30px;
+	width: 55px;
+	line-height: 25px;
+}
+.head-bottom{
+	height: 30px;
+	width: 850px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background-color: #FFFBDE;
+	border: 1px solid rgb(208,208,208);
+	border-top: 0;
+}
+.head-bottom i{
+	height: 20px;
+	width: 20px;
+	margin-top: 7px;
+}
+.operation{
+	color: rgb(32,70,193);
+	text-decoration: underline;
+	font-weight: 600;
+	height: 30px;
+	width: 50px;
+	line-height: 30px;
+}
+.main{
+	margin-top: 
+	height: 260px;
+	width: 850px;
+	margin-top: 6px;
+}
+.main-title{
+	height: 20px;
+	width: 850px;
+	margin-bottom: 2px;
+	display: flex;
+	flex-direction: row;
+	color: rgb(99,124,146);
+}
+.main-title-way{
+	text-align: center;
+	height: 20px;
+	width: 504px;
+	line-height: 20px;
+	background-color: rgb(206,220,232);
+	margin-right: 2px;
+}
+.main-title-postion{
+	text-align: center;
+	height: 20px;
+	width: 80px;
+	line-height: 20px;
+	background-color: rgb(206,220,232);
+	margin-right: 2px;
+}
+.main-title-fee{
+	text-align: center;
+	height: 20px;
+	width: 86px;
+	line-height: 20px;
+	background-color: rgb(206,220,232);
+	margin-right: 2px;
+}
+.main-title-special{
+	text-align: center;
+	height: 20px;
+	width: 100px;
+	line-height: 20px;
+	background-color: rgb(206,220,232);
+	margin-right: 2px;
+}
+.main-title-dis{
+	text-align: center;
+	height: 20px;
+	width: 72px;
+	line-height: 20px;
+	background-color: rgb(206,220,232);
+}
+.main-stop{
+	height: 50px;
+	width: 850px;
+	border: 1px solid rgb(208,208,208);
+	border-top: 0;
+	background-color: #F2F2F2;
+	display: flex;
+	flex-direction: row;
+}
+.main-stop-left{
+	height: 50px;
+	width: 504px;
+	display: flex;
+	flex-direction: row;
+	margin-right: 2px;
+}
+.space{
+	height: 50px;
+	width: 90px;
+}
+.main-stop-left span{
+	margin-top: 11px;
+}
+.big{
+	color: rgb(66,176,229);
+}
+.blueblock{
+	height: 16px;
+	width: 16px;
+	margin-top: 17px;
+	margin-right: 7px;
+	background: linear-gradient(rgb(67,182,229) 30%,rgb(15,127,228) 70%,rgb(30,156,215) 90%);
+}
+.name{
+	height: 50px;
+	width: 70px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 50px;
+	font-family: "黑体";
+}
+.main-stop-middle{
+	height: 50px;
+	width: 80px;
+	line-height: 50px;
+	text-align: center;
+}
+.time{
+	height: 50px;
+	width: 115px;
+	line-height: 50px;
+	text-align: center;
+}
+.block{
+	height: 10px;
+	width: 10px;
+	background: white;
+	margin: 3px;
+}
+.postionin{
+	height: 25px;
+	width: 80px;
+	line-height: 32px;
+	text-align: center;
+}
+.postionout{
+	height: 25px;
+	width: 80px;
+	line-height: 18px;
+	text-align: center;
+}
+.main-stop-right{
+	height: 50px;
+	width: 254px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;;
+}
+.main-stop-right div{
+	height: 50px;
+	color: rgb(42,75,196);
+	text-decoration: underline;
+	margin-left: 8px;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 50px;
+}
+.main-infor{
+	height: 44px;
+	width: 850px;
+	display: flex;
+	flex-direction: row;
+}
+.times{
+	width: 125px;
+	height: 44px;
+}
+.t{
+	height: 22px;
+	width: 100%;
+	font-weight: 600;
+	line-height: 22px;
+	text-align: center;
+	color: rgb(39,31,53);
+	font-family: "黑体";
+}
+.times div{
+	height: 22px;
+	width: 100%;
+	line-height: 22px;
+	text-align: center;
+	color: rgb(39,31,53);
+}
+.rail{
+	height: 44px;
+	width: 4px;
+	height: 100%;
+	border: 1px solid rgb(150,199,216);
+	background: repeating-linear-gradient(rgb(150,199,216),
+		rgb(150,199,216) 8px,rgb(150,199,216) 0, white 0,white 13px);
+}
+.ways{
+	width: 375px;
+	height: 44px;
+	display: flex;
+	flex-direction: row;
+}
+.ways i{
+	margin-top: 15px;
+	margin-right: 8px;
+	margin-left: 10px;
+	color: rgb(0,150,250);
+}
+.ord i{
+	color: rgb(1,137,92);
+}
+.place{
+	height: 44px;
+	line-height: 44px;
+	text-decoration: underline;
+	color: rgb(11,111,167);
+	margin-left: 10px;
+}
+.spaces{
+	height: 44px;
+	width: 84px;
+	border-left: 1px solid rgb(208,208,208);
+}
+.fees{
+	width: 90px;
+	height: 44px;
+	border-left: 1px solid rgb(208,208,208);
+	line-height: 44px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 15px;
+	color: rgb(56,0,55);
+}
+.specials{
+	width: 100px;
+	height: 44px;
+	border-left: 1px solid rgb(208,208,208);
+}
+.specials div{
+	width: 100px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 15px;
+}
+.distance{
+	border-left: 1px solid rgb(208,208,208);
+	height: 44px;
+	width: 72px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 15px;
+}
+.fees i{
+	margin-top: 14px; 
+	color: rgb(56,0,55);
+}
+.smallbox{
+	border: 1px solid black;
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	margin-top: 20px;
+}
