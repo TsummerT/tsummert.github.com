@@ -348,10 +348,10 @@ div{
 .begin{
 	position: absolute;
 	transform: rotate(45deg);
-	margin-left: 405px;
-	margin-top: 10px;
+	margin-left: 410px;
+	margin-top: 15px;
 	color: white;
-	font-size: 25px;
+	font-size: 22px;
 	z-index: 99;
 }
 .txt1{
