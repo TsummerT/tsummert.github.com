@@ -302,6 +302,9 @@ div{
 	align-self: flex-end;
 	flex-wrap: wrap;
 }
+.main-body-lefttext5 .block320X180{
+	width: 100%;
+}
 .main-body-lefttext5 .col-lg-8 .count,
 .main-body-lefttext6 .col-lg-12 .count{
 	display: flex;
@@ -348,10 +351,12 @@ div{
 .begin{
 	position: absolute;
 	transform: rotate(45deg);
-	margin-left: 425px;
-	margin-top: 25px;
+	/*margin-left: 425px;
+	margin-top: 25px;*/
+	margin-left: 74%;
+	margin-top: 4%;
 	color: white;
-	font-size: 20px;
+	font-size: 18px;
 	z-index: 99;
 }
 .txt1{
