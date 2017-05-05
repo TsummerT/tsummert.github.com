@@ -13,7 +13,7 @@ var marker = new BMap.Marker(point);	// 创建标注
 map.addOverlay(marker);
 
 var local = new BMap.LocalSearch(map, {
-	pageCapacity: 8,
+	pageCapacity: 7,
   	renderOptions: {
    		map: map,
     	panel: "result",
@@ -45,7 +45,7 @@ var hznuinfo=[
 	{ title :"博文苑8号楼", point:"120.015184,30.296398", image:"picture/2.jpg"},
 	{ title :"杭州师范大学仓前新校区", point:"120.015251,30.295154", image:"picture/3.jpg"},
 	{ title :"菜鸟驿站", point:"120.016796,30.296269", image:"picture/4.jpg"},
-	{ title :"杭州师范大学1号餐厅", point:"120.016994,30.29361", image:"picture/5.jpg"},
+	{ title :"杭州师范大学1号餐厅", point:"120.016994,30.29361", image:"picture/1.jpg"},
 	{ title :"恕园1号楼阿里巴巴商学院", point:"120.019990,30.294831", image:"picture/6.jpg"},
 	{ title :"恕园7号楼彩色玻璃房", point:"120.019006,30.295271", image:"picture/1.jpg"},
 	{ title :"恕园36号楼图书馆", point:"120.016945,30.297671", image:"picture/1.jpg"},

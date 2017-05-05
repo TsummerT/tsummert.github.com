@@ -11,11 +11,13 @@ body, html, #mymap {
 	position: absolute;
 	top: 5%;
 	right: 0;
+	overflow: auto;
 }
 #results{
 	height: 100%;
-	width: 18%;
+	width: 16%;
 	position: absolute;
 	top: 6%;
 	left: 0;
+	overflow: hidden;
 }
